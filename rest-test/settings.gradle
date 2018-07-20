@@ -1,0 +1,7 @@
+include 'rest-test-lib',
+        'rest-test-plugin',
+        'rest-test-app'
+
+project(':rest-test-lib').projectDir = "${rootProject.projectDir}/libs/rest-test-lib" as File        
+project(':rest-test-plugin').projectDir = "${rootProject.projectDir}/plugins/rest-test-plugin" as File        
+project(':rest-test-app').projectDir = "${rootProject.projectDir}/apps/rest-test-app" as File        

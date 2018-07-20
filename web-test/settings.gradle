@@ -1,0 +1,7 @@
+include 'web-test-lib',
+        'web-test-plugin',
+        'web-test-app'
+
+project(':web-test-lib').projectDir = "${rootProject.projectDir}/libs/web-test-lib" as File        
+project(':web-test-plugin').projectDir = "${rootProject.projectDir}/plugins/web-test-plugin" as File        
+project(':web-test-app').projectDir = "${rootProject.projectDir}/apps/web-test-app" as File        
